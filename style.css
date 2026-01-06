@@ -1,0 +1,19 @@
+.primary-btn{
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color : red;
+    cursor : pointer;
+    transition: background 0.3s;
+}
+
+.primary-btn:click{
+    background-color: blue;
+}
+.primary-btn:hover{
+    background-color: greenyellow;
+}
+
+.primary-btn:disabled{
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
